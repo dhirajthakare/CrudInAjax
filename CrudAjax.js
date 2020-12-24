@@ -3,27 +3,6 @@ $(document).ready(function () {
 
     display();
 
-    // $("#submit").click(function () {
-    //     $.ajax({
-    //         url: "insert.php",
-    //         type: 'post',
-    //         data: $("#myform input").serialize(),
-    //         success: function (data) {
-    //             console.log("insert done");
-
-
-    //         }
-    //     });
-
-    // });
-
-
-    // $( "#myform" ).submit(function( event ) {
-    //     alert( "Handler for .submit() called." );
-    //     event.preventDefault();
-    //   });
-
-
     $("#myform").submit(function ( even ) {
 
 
